@@ -1,4 +1,4 @@
-from QA_1.app.shop import is_valid_password, calculate_total
+from shop import is_valid_password, calculate_total
 
 
 def check_password():
