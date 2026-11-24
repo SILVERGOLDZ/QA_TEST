@@ -15,3 +15,9 @@ on terminal, type `npm tests`
 # Screenshots
 ![test_results](./images/test_result_screenshot_1.png)
 ![test_results](./images/test_result_screenshot_2.png)
+
+# Jira
+This project also uses Jira to learn issue tracking and management
+![jira_issue](./images/Jira_screenshot.png)
+![jira_issue](./images/Jira_screenshot_2.png)
+![jira_issue](./images/Jira_board_screenshot_2.png)
