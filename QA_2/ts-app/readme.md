@@ -20,4 +20,4 @@ on terminal, type `npm tests`
 This project also uses Jira to learn issue tracking and management
 ![jira_issue](./images/Jira_screenshot.png)
 ![jira_issue](./images/Jira_screenshot_2.png)
-![jira_issue](./images/Jira_board_screenshot_2.png)
+![jira_issue](./images/Jira_board_screenshot.png)
