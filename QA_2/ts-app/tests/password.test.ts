@@ -15,16 +15,11 @@ const cases: [string, string, boolean][] = [
   ["F-PWD-10", "Abcdefg1 ", false],
 ];
 
-const skippedCases: [string, string, boolean][] = [
-  ["F-PWD-11", "Abcdefg1!", true],
-];
 
 describe("REQ-1 password rules", () => {
   it.each(cases)('%s: "%s" -> %s', (_id, password, expected) => {
     expect(isValidPassword(password)).toBe(expected);
   });
 
-  it.skip.each(skippedCases)('%s: "%s" -> pending clarification, gap #1', (_id, password, expected) => {
-    expect(isValidPassword(password)).toBe(expected);
-  });
+  it.todo("F-PWD-11: 'Abcdefg1!' — pending clarification (gap #1)");
 });
